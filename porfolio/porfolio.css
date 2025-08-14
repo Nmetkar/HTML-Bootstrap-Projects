@@ -1,0 +1,57 @@
+.section{
+    height: 400px;
+    background-color: whitesmoke;
+   text-align: center;
+}
+
+.text-gradient{
+   font-size: 60px;
+   font-weight: bold;
+   background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background-clip: text;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    display: inline-block; 
+  background-size: 100% 100%;   
+}
+.subcontanier{
+    position: relative;;
+}
+.profile{
+    height: 500px;
+    width: 400px;   
+}
+
+
+/* projects */
+
+
+.mainheading{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.projectimg{
+   height: 380px;
+   width: 240px;
+}
+
+.conme{
+    padding-top: 90px;
+    height: 350px;
+     background: linear-gradient(150deg,rgba(16, 25, 181, 1) 0%, rgba(214, 17, 158, 1) 100%);">
+}
+
+.conme h1{
+    font-size: 60px;
+}
+
+
+/* Contact */
+
+.formcon{
+    height: 780px;
+    background-color: #ded3d9;
+    
+}

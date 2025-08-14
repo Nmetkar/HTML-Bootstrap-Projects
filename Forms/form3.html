@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+    .card {
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .form-check-input:checked {
+        background-color: #3b4ba3;
+        border-color: #3b4ba3;
+    }
+    .btn-primary {
+        background-color: #3b4ba3;
+        border: none;
+    }
+    .btn-primary:hover {
+        background-color: #2f3a85;
+    }
+    .input-group-text {
+        background-color: #3b4ba3;
+        color: white;
+        border: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow col-md-4">
+        <h4 class="text-center mb-4">Registration</h4>
+
+        <!-- Account Type -->
+        <div class="d-flex justify-content-center mb-3">
+            <div class="form-check me-3">
+                <input class="form-check-input" type="radio" name="accountType" id="personal" checked>
+                <label class="form-check-label" for="personal">Personal</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="accountType" id="company">
+                <label class="form-check-label" for="company">Company</label>
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" class="form-control" placeholder="Email" required>
+        </div>
+
+        <!-- Name -->
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+            <input type="text" class="form-control" placeholder="Name" required>
+        </div>
+
+        <!-- Password -->
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-solid fa-shield"></i></span>
+            <input type="password" class="form-control" placeholder="Password" required>
+        </div>
+
+        <!-- Gender -->
+        <div class="d-flex justify-content-center mb-3">
+            <div class="form-check me-3">
+                <input class="form-check-input" type="radio" name="gender" id="male" checked>
+                <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="female">
+                <label class="form-check-label" for="female">Female</label>
+            </div>
+        </div>
+
+        <!-- Terms -->
+        <p class="small">
+            By clicking Register, you agree on our 
+            <a href="#">terms and condition</a>.
+        </p>
+
+        <!-- Register Button -->
+        <div class="d-grid">
+            <button class="btn btn-primary" type="submit">Register</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

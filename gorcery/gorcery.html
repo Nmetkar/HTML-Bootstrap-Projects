@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Gorcery Market</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- css-file -->
+  <link rel="stylesheet" href="./gorcery.css" />
+
+  <!-- fontawesome css  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: rgb(212, 239, 172);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./gorcery.logo.jpg" alt="Logo" width="150" height="50" class="d-inline-block align-text-top">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">list</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              explore
+            </a>
+            <ul class="dropdown-menu" data-bs-theme="dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true">About us</a>
+          </li>
+        </ul>
+        <div data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="fa-solid fa-cart-shopping px-3"></i>
+        </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+ <!-- carousel -->
+
+ <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./gorcery/cor1.jpg" class="d-block w-100 carouselview" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="shop">Shop Now</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./gorcery/cor2.jpg" class="d-block w-100 carouselview" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="shop">Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./gorcery/cor3.jpg" class="d-block w-100 carouselview" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Shop Now</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="./gorcery/cor4.jpg" class="d-block w-100 carouselview" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="shop">Shop Now</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="./gorcery/cor5.jpg" class="d-block w-100 carouselview" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="shop">Shop Now</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+  <!-- Categories Of gorcery -->
+
+
+  <div class="contanier p-5">
+    <h2 class="text-center bg-success py-2 shadowtext">Categories Of Gorcery</h2>
+    <div class="row ">
+      <div class="col-12 col-md-6 col-lg-3 md-2 text-center">
+        <img src="./gorcery/vegetables-cat.jpg" alt="img not shown" class="img-fluid rounded-circle categories" />
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 md-2 text-center ">
+        <img src="./gorcery/fruits-cat.jpg" alt="img not shown" class="img-fluid rounded-circle categories " />
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 md-2 text-center ">
+        <img src="./gorcery/dairy-cat.jpg" alt="img not shown" class="img-fluid rounded-circle categories" />
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 md-2 text-center">
+        <img src="./gorcery/spices-cat.jpg" alt="img not shown" class="img-fluid rounded-circle categories" />
+      </div>
+    </div>
+
+
+    <!-- All products -->
+
+    <h2 class="text-center
+      style="background: #2A7B9B;
+         background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);">Resent Products
+    </h2>
+
+    <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3 mb-2">
+        <div class="card m-2" style="width: 18rem;">
+          <img src="./gorcery/brinjal.jpg" class="card-img-top product" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-2">
+        <div class="card  m-2" style="width: 18rem;">
+          <img src="./gorcery/potato.jpg" class="card-img-top product" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-3 mb-2">
+        <div class="card  m-2" style="width: 18rem;">
+          <img src="./gorcery/peas.jpg" class="card-img-top product" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-2">
+       <div class="card m" style="width: 18rem;">
+          <img src="./gorcery/tomato.jpg" class="card-img-top product" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- 4 contanier -->
+
+    <div class="contanier md-2 py-5">
+      <div class="row">
+        <div class="col-12 col-md-6 p-3">
+          <img src="./gorcery/card1.jpg" class="cont" />
+        </div>
+
+        <div class="col-12 col-md-6 p-3 ">
+          <img src="./gorcery/card2.jpg" class="cont" />
+        </div>
+
+        <div class="col-12 col-md-6 p-3 ">
+          <img src="./gorcery/card3.jpg" class="cont" />
+        </div>
+
+        <div class="col-12 col-md-6 p-3 ">
+          <img src="./gorcery/card4.jpg" class="cont" />
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4>We Deliver to</h4>
+          <ul class="list-unstyled">
+            <li class="m-4"><a href="#"></a>Pune</li>
+            <li class="m-4"><a href="#"></a>Delhi</li>
+            <li class="m-4"><a href="#"></a>Bangalore</li>
+            <li class="m-4"><a href="#"></a>Mumbai</li>
+            <li class="m-4"><a href="#"></a>Kochi</li>
+            <li class="m-4"><a href="#"></a>Noida</li>
+            <li class="m-4"><a href="#"></a>Jaipur</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h4>Company</h4>
+          <ul class="list-unstyled">
+            <li class="m-4"><a href="#"></a>About</li>
+            <li class="m-4"><a href="#"></a>Team</li>
+            <li class="m-4"><a href="#"></a>Career</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h4>legel</h4>
+          <ul class="list-unstyled">
+            <li class="m-4"><a href="#"></a>Teams & .....</li>
+            <li class="m-4"><a href="#"></a>Cookie Policy</li>
+            <li class="m-4"><a href="#"></a>Privacy Policy</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h4>Contact Us</h4>
+          <ul class="list-unstyled">
+            <li class="m-4"><a href="#"></a>Help & Support</li>
+            <li class="m-4"><a href="#"></a>Partner with us</li>
+            <li class="m-4"><a href="#"></a>Rides with us</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- subfooter -->
+
+    <div class="d-flex justify-content-between">
+      <div class="text-center m-3">
+        &copy; Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, fuga laudantium?
+      </div>
+      <div class="text-center">
+        <i class="fa-brands fa-twitter bg-warning rounded-circle p-3 m-1"></i>
+        <i class="fa-brands fa-square-instagram bg-warning rounded-circle p-3 m-1"></i>
+        <i class="fa-brands fa-square-facebook bg-warning rounded-circle p-3 m-1"></i>
+        <i class="fa-brands fa-square-whatsapp bg-warning rounded-circle p-3 m-1"></i>
+        <i class="fa-brands fa-square-youtube bg-warning rounded-circle p-3 m-1"></i>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

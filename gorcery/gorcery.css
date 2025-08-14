@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+.shadowtext{
+    text-shadow: 3px 3px 3px gray;
+}
+.categories {
+    height: 120px !important;
+    width: 120px !important;
+
+}
+
+.cont{
+    height: 350px !important;
+    width: 550px !important;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.product{
+    height: 150px !important;
+    width: 200px !important;
+}
+
+.carouselview{
+    height: 500px;
+}
+
+.shop{
+    t
+}
+

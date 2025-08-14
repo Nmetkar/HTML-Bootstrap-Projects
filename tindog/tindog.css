@@ -1,0 +1,57 @@
+
+.maincon{
+    background-color: #FF4C68;
+    height: 600px;
+    overflow: hidden;
+}
+
+.heading{
+    font-size: 60px;
+    color: white;
+}
+
+.iphone{
+    height: 530px;
+    position: relative;
+    transform: rotate(25deg);
+}
+
+
+.main1con{
+     margin-top: 10% !important;
+    margin-bottom: 10% !important;  
+}
+
+.icon{
+    font-size: 80px;
+    padding: 20px;
+    color: #EF8172; 
+}
+
+.icon:hover{
+    color: #FF4C68;
+}
+
+.subcontanier{
+    height: 570px;
+    background-color: #EF8172;
+}
+
+.circle{
+    height: 120px;
+    width: 120px;
+}
+
+.lastcon{
+    background-color: #FF4C68;
+    height: 350px;
+}
+
+.heart{
+    text-decoration: none;
+}
+
+.heart:hover{
+    text-decoration: underline;
+    color: blue;
+}

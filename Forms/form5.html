@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Championship Registration Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      min-height: 100vh;
+      background: linear-gradient(to bottom right, #d1b1f6, #b9d7f8, #a4ecff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .form-container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    }
+    .form-title {
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+      color: #333;
+    }
+    .btn-submit {
+      background-color: #0049d1;
+      color: white;
+      font-weight: bold;
+      padding: 8px 20px;
+      border: none;
+      border-radius: 5px;
+    }
+    .btn-submit:hover {
+      background-color: #0036a3;
+    }
+    label span {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2 class="form-title">School Championship Registration Form</h2>
+    <form>
+      <!-- School name -->
+      <div class="mb-3">
+        <label class="form-label">School name:<span>*</span></label>
+        <input type="text" class="form-control" required>
+      </div>
+
+      <!-- Schooler name -->
+      <div class="mb-3 row">
+        <div class="col">
+          <label class="form-label">Schooler name:<span>*</span></label>
+          <input type="text" class="form-control" placeholder="First" required>
+        </div>
+        <div class="col">
+          <label class="form-label">&nbsp;</label>
+          <input type="text" class="form-control" placeholder="Last" required>
+        </div>
+      </div>
+
+      <!-- Parent name -->
+      <div class="mb-3 row">
+        <div class="col">
+          <label class="form-label">Parent name:<span>*</span></label>
+          <input type="text" class="form-control" placeholder="First" required>
+        </div>
+        <div class="col">
+          <label class="form-label">&nbsp;</label>
+          <input type="text" class="form-control" placeholder="Last" required>
+        </div>
+      </div>
+
+      <!-- Parent phone -->
+      <div class="mb-3">
+        <label class="form-label">Parent phone:<span>*</span></label>
+        <input type="tel" class="form-control" placeholder="### ### ####" required>
+      </div>
+
+      <!-- Parent email -->
+      <div class="mb-3">
+        <label class="form-label">Parent email:<span>*</span></label>
+        <input type="email" class="form-control" required>
+      </div>
+
+      <!-- Preferred sport -->
+      <div class="mb-3">
+        <label class="form-label">Preferred sport:<span>*</span></label>
+        <input type="text" class="form-control" required>
+      </div>
+
+      <!-- Verification -->
+      <div class="mb-3">
+        <label class="form-label">Verification<span>*</span></label>
+        <div class="form-check">
+          <!-- reCAPTCHA placeholder -->
+          <div style="border:1px solid #ccc; border-radius:4px; padding:10px; display:inline-block;">
+            <input type="checkbox" class="form-check-input"> I'm not a robot
+          </div>
+        </div>
+      </div>
+
+      <!-- Submit -->
+      <div class="text-center">
+        <button type="submit" class="btn-submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
