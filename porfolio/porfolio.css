@@ -17,11 +17,42 @@
 .subcontanier{
     position: relative;;
 }
-.profile{
-    height: 500px;
-    width: 400px;   
+
+.profile-section {
+  height: 100vh;
+  background: linear-gradient(to right, #3a0ca3, #7209b7);
+  position: relative;
+  overflow: hidden;
 }
 
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.dots {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  background-image: radial-gradient(white 2px, transparent 2px);
+  background-size: 10px 10px;
+  z-index: 1;
+}
+
+.left-dots {
+  left: 0;
+}
+
+.right-dots {
+  right: 0;
+}
+
+.content {
+  z-index: 2;
+}
 
 /* projects */
 
